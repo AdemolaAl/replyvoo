@@ -1,0 +1,19 @@
+{
+  "voice": "Alessandra Grey - Bright, Warm & Real (ElevenLabs)",
+  "voice_id": "ZghUpjl7YBiyT1L4X9B7",
+  "files": {},
+  "lines": {
+    "s1": "Welcome to Agent Studio! I'm your guide. Step one: pick a role for your Closer. Sales, support, bookings, or looking after your group. Don't worry, you can change it any time.",
+    "s2": "Step two: give it a personality! Choose a name your customers will love, then slide to set the tone. Friendly or formal, short or detailed. Watch the sample reply change as you go.",
+    "s3": "Step three is the big one: teach it! Add the questions customers ask, with your answers. Add your products and prices, and how delivery and payment work. Write it the way you'd say it in chat.",
+    "s4": "Step four: set the rules. Tell your Closer what it should never say or promise, and when to hand a chat to your team. Like angry customers, refunds, or really big orders.",
+    "s5": "Last step: test and launch! Tap the test questions, fix any answer that's not quite right, and watch your training score climb. When you're happy, flip it live. You've got this!",
+    "d0": "Meet Glow Labs! Let's train their AI Closer, Ace, in thirty seconds.",
+    "d1": "First, a personality. Friendly, short, and just one emoji.",
+    "d2": "Now teach it, like a new hire. One question, one answer.",
+    "d3": "A customer asks, and Ace replies with exactly what you taught. In seconds.",
+    "d4": "Oops, a wrong answer? No stress. Tap fix this answer, and write the right one.",
+    "d5": "Next time, Ace gets it right. Every single time.",
+    "d6": "Training score, ninety two. Flip the switch, and Ace is live, selling for you around the clock!"
+  }
+}

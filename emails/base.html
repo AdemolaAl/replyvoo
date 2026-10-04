@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="x-apple-disable-message-reformatting">
+<meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+<title>Replyvoo</title>
+<!--[if mso]>
+<noscript>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+</noscript>
+<style>
+table, td, div, p, a, span, h1, h2, h3 { font-family: 'Segoe UI', Arial, sans-serif !important; }
+</style>
+<![endif]-->
+<style>
+  :root { color-scheme: light dark; supported-color-schemes: light dark; }
+  body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+  table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+  img { -ms-interpolation-mode: bicubic; border: 0; outline: none; text-decoration: none; }
+  body { margin: 0 !important; padding: 0 !important; width: 100% !important; }
+  a[x-apple-data-detectors] { color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; }
+  u + #body a { color: inherit; text-decoration: none; }
+  #MessageViewBody a { color: inherit; text-decoration: none; }
+  .rv-link { color: #7A5800; text-decoration: underline; }
+
+  /* ---------- Mobile ---------- */
+  @media screen and (max-width: 620px) {
+    .rv-container { width: 100% !important; max-width: 100% !important; }
+    .rv-outer { padding-left: 12px !important; padding-right: 12px !important; }
+    .rv-px { padding-left: 24px !important; padding-right: 24px !important; }
+    .rv-pt { padding-top: 32px !important; }
+    .rv-h1 { font-size: 26px !important; line-height: 32px !important; }
+    .rv-stack { display: block !important; width: 100% !important; box-sizing: border-box; }
+    .rv-stack-gap { padding-top: 12px !important; padding-left: 0 !important; padding-right: 0 !important; }
+    .rv-btn-wrap { width: 100% !important; }
+    .rv-btn-wrap td { display: block !important; width: 100% !important; }
+    .rv-btn-wrap a { display: block !important; text-align: center !important; }
+    .rv-stat-num { font-size: 26px !important; line-height: 30px !important; }
+    .rv-hide-mobile { display: none !important; }
+  }
+
+  /* ---------- Dark mode ---------- */
+  @media (prefers-color-scheme: dark) {
+    .rv-body, .rv-body-bg { background-color: #0E0D0C !important; }
+    .rv-card { background-color: #1A1916 !important; border-color: #2E2B26 !important; }
+    .rv-text, .rv-h1, .rv-wordmark { color: #F5F3EE !important; }
+    .rv-muted { color: #B9B4A8 !important; }
+    .rv-gold { color: #FFD23F !important; }
+    .rv-link { color: #FFD23F !important; }
+    .rv-soft { background-color: #23211D !important; border-color: #33302A !important; }
+    .rv-divider { border-color: #33302A !important; background-color: #33302A !important; }
+    .rv-divider-b { border-color: #33302A !important; }
+    .rv-btn-ink { background-color: #FFC21A !important; }
+    .rv-btn-ink a { color: #121110 !important; }
+    .rv-yellow, .rv-btn-yellow { background-color: #FFC21A !important; }
+    .rv-on-yellow, .rv-btn-yellow a { color: #121110 !important; }
+    .rv-ink-card { background-color: #121110 !important; border-color: #3A362F !important; }
+    .rv-ink-cell { background-color: #1E1C19 !important; }
+    .rv-on-ink { color: #F5F3EE !important; }
+    .rv-on-ink-muted { color: #B9B4A8 !important; }
+    .rv-footer, .rv-footer a { color: #8F8A7F !important; }
+  }
+  /* Outlook.com / Office dark mode */
+  [data-ogsc] .rv-text, [data-ogsc] .rv-h1, [data-ogsc] .rv-wordmark { color: #F5F3EE !important; }
+  [data-ogsc] .rv-muted { color: #B9B4A8 !important; }
+  [data-ogsc] .rv-gold, [data-ogsc] .rv-link { color: #FFD23F !important; }
+  [data-ogsc] .rv-on-yellow, [data-ogsc] .rv-btn-yellow a { color: #121110 !important; }
+  [data-ogsb] .rv-body, [data-ogsb] .rv-body-bg { background-color: #0E0D0C !important; }
+  [data-ogsb] .rv-card { background-color: #1A1916 !important; }
+  [data-ogsb] .rv-soft { background-color: #23211D !important; }
+  [data-ogsb] .rv-yellow, [data-ogsb] .rv-btn-yellow { background-color: #FFC21A !important; }
+
+  /* ---------- Motion (progressive enhancement only) ---------- */
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes rv-pulse {
+      0%   { box-shadow: 0 0 0 0 rgba(255, 194, 26, 0.65); }
+      70%  { box-shadow: 0 0 0 9px rgba(255, 194, 26, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(255, 194, 26, 0); }
+    }
+    @keyframes rv-shine {
+      0%   { left: -70%; }
+      45%  { left: 130%; }
+      100% { left: 130%; }
+    }
+    @keyframes rv-float {
+      0%   { transform: translateY(0) rotate(0deg); }
+      50%  { transform: translateY(-3px) rotate(-4deg); }
+      100% { transform: translateY(0) rotate(0deg); }
+    }
+    .rv-live-dot { animation: rv-pulse 1.8s ease-out infinite; }
+    .rv-float { animation: rv-float 4s ease-in-out infinite; }
+    .rv-shine { position: relative; overflow: hidden; }
+    .rv-shine::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -70%;
+      width: 45%;
+      height: 100%;
+      background: linear-gradient(100deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.55) 50%, rgba(255,255,255,0) 100%);
+      transform: skewX(-18deg);
+      animation: rv-shine 5s ease-in-out 0.6s infinite;
+      pointer-events: none;
+    }
+  }
+</style>
+</head>
+<body id="body" class="rv-body" style="margin:0;padding:0;width:100%;background-color:#FAF9F5;word-spacing:normal;">
+  <!-- Preheader (hidden) -->
+  <div style="display:none;font-size:1px;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;mso-hide:all;color:#FAF9F5;">{{preheader}}&#8202;&zwnj;&nbsp;&#8202;&zwnj;&nbsp;&#8202;&zwnj;&nbsp;&#8202;&zwnj;&nbsp;&#8202;&zwnj;&nbsp;&#8202;&zwnj;&nbsp;&#8202;&zwnj;&nbsp;&#8202;&zwnj;&nbsp;&#8202;&zwnj;&nbsp;&#8202;&zwnj;&nbsp;&#8202;&zwnj;&nbsp;&#8202;&zwnj;&nbsp;</div>
+
+  <table role="presentation" class="rv-body-bg" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FAF9F5" style="width:100%;background-color:#FAF9F5;">
+    <tr>
+      <td class="rv-outer" align="center" style="padding:32px 16px 40px 16px;">
+        <!--[if mso]><table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
+        <table role="presentation" class="rv-container" width="600" cellpadding="0" cellspacing="0" border="0" align="center" style="width:100%;max-width:600px;margin:0 auto;">
+
+          <!-- Header -->
+          <tr>
+            <td style="padding:0 8px 20px 8px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td align="left" valign="middle">
+                    <!-- Logo image when logo_url is set; otherwise the text wordmark.
+                         (No else in the renderer: when logo_url is set, the wordmark below is wrapped in an HTML comment.) -->
+                    {{#if logo_url}}<a href="{{app_url}}" target="_blank" style="text-decoration:none;"><img src="{{logo_url}}" width="132" alt="Replyvoo" style="display:block;width:132px;max-width:132px;height:auto;border:0;font-family:'Plus Jakarta Sans',-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:20px;font-weight:800;color:#121110;"></a><!--{{/if}}
+                    <a href="{{app_url}}" target="_blank" style="text-decoration:none;">
+                      <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td valign="middle" style="padding-right:10px;">
+                            <div class="rv-float" style="display:inline-block;">
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                              <tr>
+                                <td class="rv-yellow" width="30" height="30" align="center" valign="middle" bgcolor="#FFC21A" style="width:30px;height:30px;background-color:#FFC21A;border-radius:9px;font-family:'Plus Jakarta Sans',-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;line-height:30px;font-weight:800;color:#121110;mso-line-height-rule:exactly;">
+                                  <span class="rv-on-yellow" style="color:#121110;">r</span>
+                                </td>
+                              </tr>
+                            </table>
+                            </div>
+                          </td>
+                          <td valign="middle" class="rv-wordmark" style="font-family:'Plus Jakarta Sans',-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:21px;line-height:30px;font-weight:800;letter-spacing:-0.4px;color:#121110;">
+                            <span class="rv-wordmark" style="color:#121110;">Replyvoo</span>
+                          </td>
+                        </tr>
+                      </table>
+                    </a>
+                    {{#if logo_url}}-->{{/if}}
+                  </td>
+                  <td align="right" valign="middle" class="rv-hide-mobile">
+                    <a href="{{app_url}}" target="_blank" class="rv-muted" style="font-family:'Plus Jakarta Sans',-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;font-weight:600;color:#5E5A50;text-decoration:none;">Open dashboard &rarr;</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Card -->
+          <tr>
+            <td class="rv-card" bgcolor="#FFFFFF" style="background-color:#FFFFFF;border:1px solid #EEEBE2;border-radius:24px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td class="rv-px rv-pt" style="padding:40px 44px 40px 44px;font-family:'Plus Jakarta Sans',-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:16px;line-height:26px;color:#121110;">
+{{{content}}}
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td class="rv-footer" align="center" style="padding:28px 24px 0 24px;font-family:'Plus Jakarta Sans',-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:12px;line-height:20px;color:#5E5A50;">
+              <p style="margin:0 0 6px 0;font-size:13px;font-weight:700;color:#5E5A50;" class="rv-footer">Replyvoo is a product of {{company_name}}.</p>
+              <p style="margin:0 0 6px 0;" class="rv-footer">{{company_address}}</p>
+              <p style="margin:0 0 14px 0;" class="rv-footer">Questions? <a href="mailto:{{support_email}}" style="color:#5E5A50;text-decoration:underline;font-weight:600;">{{support_email}}</a> &nbsp;&middot;&nbsp; <a href="{{app_url}}" target="_blank" style="color:#5E5A50;text-decoration:underline;font-weight:600;">Open Replyvoo</a></p>
+              <p style="margin:0 0 6px 0;font-size:11px;line-height:17px;color:#8A8578;" class="rv-footer">Replyvoo is not affiliated with Telegram, Meta, WhatsApp, Instagram or TikTok.</p>
+              <p style="margin:0;font-size:11px;line-height:17px;color:#8A8578;" class="rv-footer">&copy; {{year}} {{company_name}}{{#if unsubscribe_url}} &nbsp;&middot;&nbsp; <a href="{{unsubscribe_url}}" style="color:#8A8578;text-decoration:underline;">Unsubscribe</a>{{/if}}</p>
+            </td>
+          </tr>
+
+        </table>
+        <!--[if mso]></td></tr></table><![endif]-->
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
